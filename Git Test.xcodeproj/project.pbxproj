@@ -21,7 +21,7 @@
 		A740AB6019711AAA00508252 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A740AB4219711AAA00508252 /* UIKit.framework */; };
 		A740AB6819711AAA00508252 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A740AB6619711AAA00508252 /* InfoPlist.strings */; };
 		A740AB6A19711AAA00508252 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A740AB6919711AAA00508252 /* Git_TestTests.m */; };
-		A740AB7519711D5000508252 /* KVTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A740AB7419711D5000508252 /* KVTest.m */; };
+		A740AB7819711EC000508252 /* KVTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A740AB7719711EC000508252 /* KVTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		A740AB6519711AAA00508252 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		A740AB6719711AAA00508252 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A740AB6919711AAA00508252 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
-		A740AB7319711D5000508252 /* KVTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KVTest.h; path = ../KVTest.h; sourceTree = "<group>"; };
-		A740AB7419711D5000508252 /* KVTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KVTest.m; path = ../KVTest.m; sourceTree = "<group>"; };
+		A740AB7619711EC000508252 /* KVTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVTest.h; sourceTree = "<group>"; };
+		A740AB7719711EC000508252 /* KVTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,10 +120,10 @@
 				A740AB5019711AAA00508252 /* Main.storyboard */,
 				A740AB5319711AAA00508252 /* KVViewController.h */,
 				A740AB5419711AAA00508252 /* KVViewController.m */,
-				A740AB7319711D5000508252 /* KVTest.h */,
-				A740AB7419711D5000508252 /* KVTest.m */,
 				A740AB5619711AAA00508252 /* Images.xcassets */,
 				A740AB4519711AAA00508252 /* Supporting Files */,
+				A740AB7619711EC000508252 /* KVTest.h */,
+				A740AB7719711EC000508252 /* KVTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -255,7 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A740AB7519711D5000508252 /* KVTest.m in Sources */,
+				A740AB7819711EC000508252 /* KVTest.m in Sources */,
 				A740AB5519711AAA00508252 /* KVViewController.m in Sources */,
 				A740AB4B19711AAA00508252 /* main.m in Sources */,
 				A740AB4F19711AAA00508252 /* KVAppDelegate.m in Sources */,
